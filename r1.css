@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(0, 251, 255) 0%, rgb(37, 0, 204) 100%);  
+}
+.container{
+    width: 500px;
+    height: 95vh;
+    margin: 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.container header{
+    font-size: 1.5rem;
+    color: #333;
+    text-align: start;
+    font-weight: 500;
+}
+.container form{
+    margin-top: 30px;
+}
+.form.input-box input{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box input{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 8px;
+}
+.input-box input:focus{
+    border-color: #007bff;
+}
+
+button {
+  margin-top: 20;
+  background-color: #2800b8;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2800b8;
+  transform: scale(1.01); 
+}
+button:active {
+  transform: scale(0.97);
+}
+
+button:hover{
+    background: rgb(41, 0, 248);
+}
